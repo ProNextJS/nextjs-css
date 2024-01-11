@@ -1,0 +1,28 @@
+.container {
+  @apply @container;
+}
+
+.card {
+  @apply flex flex-col @md:flex-row;
+}
+
+.imageContainer {
+  @apply w-full @md:w-1/4;
+}
+
+.image {
+  @apply w-full h-auto rounded-tl-2xl rounded-tr-2xl @md:rounded-tr-none rounded-bl-none @md:rounded-bl-2xl;
+}
+
+.info {
+  @apply w-full pl-4 border-b-2 border-gray-400 rounded-br-2xl rounded-bl-2xl border-l-2 rounded-tr-none border-r-2;
+  @apply @md:w-3/4 @md:rounded-bl-none @md:rounded-tr-2xl @md:border-l-transparent;
+}
+
+.title {
+  @apply text-2xl mt-4;
+}
+
+.price {
+  @apply text-lg mt-4 italic;
+}
