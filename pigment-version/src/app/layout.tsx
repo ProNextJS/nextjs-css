@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 
 const DARK = "@media (prefers-color-scheme: dark)";
 
-const htmlClass = css((theme) => ({
-  backgroundColor: "white",
-  color: "black",
+const htmlClass = css(({ theme }) => ({
+  backgroundColor: theme.colorSchemes.light.colors.background,
+  color: theme.colorSchemes.light.colors.foreground,
   [DARK]: {
-    backgroundColor: "black",
-    color: "white",
+    backgroundColor: theme.colorSchemes.dark.colors.background,
+    color: theme.colorSchemes.dark.colors.foreground,
   },
 }));
 

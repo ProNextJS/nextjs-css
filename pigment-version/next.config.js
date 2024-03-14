@@ -4,10 +4,6 @@ const nextConfig = {};
 
 module.exports = withPigment(nextConfig, {
   theme: extendTheme({
-    colors: {
-      background: "white",
-      foreground: "black",
-    },
     colorSchemes: {
       light: {
         colors: {
