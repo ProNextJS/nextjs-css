@@ -25,7 +25,6 @@ const s = stylex.create({
   main: {
     margin: "0 auto",
     maxWidth: 960,
-    backgroundColor: "black",
     fontFamily: "sans-serif",
   },
   container: {

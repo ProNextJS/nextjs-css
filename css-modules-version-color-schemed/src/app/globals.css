@@ -1,0 +1,21 @@
+@import url("./reset.css");
+
+:root {
+  --background-color: black;
+  --text-color: white;
+}
+
+html[data-scheme="light"] {
+  --background-color: white;
+  --text-color: black;
+}
+
+html[data-scheme="dark"] {
+  --background-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

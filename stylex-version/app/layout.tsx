@@ -20,17 +20,21 @@ export default function RootLayout({
   );
 }
 
+const DARK = "@media (prefers-color-scheme: dark)";
+
 const styles = stylex.create({
   html: {
-    colorScheme: "dark",
+    backgroundColor: "white",
+    color: "black",
+    [DARK]: {
+      backgroundColor: "black",
+      color: "white",
+    },
   },
   reset: {
     minHeight: "100%",
     margin: 0,
     padding: 0,
   },
-  body: {
-    color: "white",
-    backgroundColor: "black",
-  },
+  body: {},
 });

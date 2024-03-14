@@ -40,7 +40,6 @@ const s = stylex.create({
   cardContainer: {
     display: "flex",
     width: "100%",
-    color: "white",
     flexDirection: {
       default: "row",
       [SMALL]: "column",

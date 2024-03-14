@@ -16,7 +16,6 @@ const Card = styled.div`
 const CardContainer = styled.div`
   display: flex;
   width: 100%;
-  color: white;
   @container (max-width: 450px) {
     flex-direction: column;
   }

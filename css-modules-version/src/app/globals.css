@@ -1,5 +1,30 @@
 @import url("./reset.css");
 
-body {
-  background-color: black;
+:root {
+  --background-color: white;
+  --text-color: black;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* body {
+  background-color: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+} */

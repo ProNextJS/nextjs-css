@@ -8,7 +8,6 @@ import PRODUCTS from "./products";
 const Main = styled.main`
   margin: 0 auto;
   max-width: 960px;
-  background-color: black;
 `;
 
 const Container = styled.div`
