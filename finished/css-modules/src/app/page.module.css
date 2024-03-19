@@ -1,0 +1,24 @@
+.main {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 0.2rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  .card {
+    width: 33%;
+  }
+}
