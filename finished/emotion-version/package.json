@@ -12,17 +12,17 @@
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "next": "14.1.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "^15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^11.11.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@types/node": "^20.11.28",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.1.3",
-    "typescript": "^5"
+    "typescript": "^5.4.2"
   }
 }
